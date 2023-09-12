@@ -1,14 +1,13 @@
 import requests
 
-class ScrapboxAPI:
 """
 Usage:
-  クライアント生成: ScrapboxAPI({projectname}, [{csrf_token}])
+クライアント生成: ScrapboxAPI({projectname}, [{csrf_token}])
 
-  ・get_page_info: ページ内容(json)を取得
-  ・get_page_text: ページのraw_textを取得
-
+・get_page_info: ページ内容(json)を取得
+・get_page_text: ページのraw_textを取得
 """
+class ScrapboxAPI:
     def __init__(self, projectname, csrf_token=None):
         self.base_url = "https://scrapbox.io/api/"
         self.projectname = projectname
