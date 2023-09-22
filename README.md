@@ -1,2 +1,2 @@
 # ScrapBoxApiClient
-ScrapBoxのAPIクライアント
+ScrapBoxのAPIクライアントのサンプルコード
